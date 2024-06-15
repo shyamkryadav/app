@@ -1,0 +1,173 @@
+/* blur section */
+
+.blur6 {
+    background: rgb(44 0 255);
+    height: 12rem;
+    width: 9rem;
+    filter: blur(95px);
+    border-radius: 9999px;
+    position: absolute;
+    right: 5rem;
+    transition: 2s linear background;
+    top: 12rem;
+    opacity: 0.7;
+  }
+  
+  .blur7 {
+    background: linear-gradient(42deg, rgb(44 0 255), rgb(208 23 184));
+    height: 12rem;
+    width: 43rem;
+    rotate: 120deg;
+    filter: blur(96px);
+    border-radius: 10px;
+    position: absolute;
+    left: 20rem;
+    top: 30rem;
+    opacity: 0.5;
+  }
+  
+  .blur8 {
+    background: rgb(44 0 255);
+    width: 12rem;
+    height: 31rem;
+    filter: blur(96px);
+    border-radius: 999px;
+    position: absolute;
+    left: -3rem;
+    bottom: 0rem;
+    opacity: 0.4;
+  }
+  
+
+.myProjectSection {
+    display: flex;
+    padding: 3rem 0;
+    flex-direction: column;
+    gap: 4rem;
+    min-height: auto;
+    position: relative;
+  }
+  
+  .myProjectSection .heading {
+    display: flex;
+    font-size: 6rem;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10rem;
+  }
+  
+  .myProjectSection .projects>div:nth-child(1) {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 12rem;
+    position: relative;
+  }
+  
+  .myProjectSection .projects div .img {
+    background: purple;
+    height: 14rem;
+    width: 28rem;
+    border-radius: 20px;
+  }
+  
+  .myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.51rem;
+    right: 30rem;
+    top: 2rem;
+  }
+  
+  .myProjectSection .projects div div:nth-child(2) span:nth-child(1) {
+    font-size: 3rem;
+  }
+  
+  .myProjectSection .projects div div:nth-child(2) span:nth-child(2) {
+    font-size: 2rem;
+    color: rgb(120, 124, 134);
+  }
+  
+  .myProjectSection .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+  .myProjectSection .projects>div:nth-child(2) {
+    display: flex;
+    align-self: end;
+    margin-right: 16rem;
+    position: relative;
+  }
+  
+  .myProjectSection .projects>div:nth-child(2) .img {
+    height: 25rem;
+    width: 22rem;
+  }
+  
+  .myProjectSection .projects>div:nth-child(2) div:nth-child(2) {
+    position: absolute;
+    top: 9rem;
+    left: -10rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myProjectSection .projects>div:nth-child(3) {
+    display: flex;
+    align-self: start;
+    margin-left: 16rem;
+    position: relative;
+  }
+  
+  .myProjectSection .projects>div:nth-child(3) .img {
+    height: 18rem;
+    width: 22rem;
+  }
+  
+  .myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+    position: absolute;
+    top: 9rem;
+    right: -14rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myProjectSection .projects>div:nth-child(4) {
+    display: flex;
+    align-self: end;
+    margin-right: 16rem;
+    position: relative;
+  }
+  
+  .myProjectSection .projects>div:nth-child(4) .img {
+    height: 16rem;
+    width: 38rem;
+  }
+  
+  .myProjectSection .projects>div:nth-child(4) div:nth-child(2) {
+    position: absolute;
+    top: 9rem;
+    left: -16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .myProjectSection .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    color: #ff00ee;
+  }
+  
+  .myProjectSection .bottom span {
+    cursor: pointer;
+    transition:0.1s linear;
+  }
+  
+  .myProjectSection .bottom span:hover {
+  color:blue;}
