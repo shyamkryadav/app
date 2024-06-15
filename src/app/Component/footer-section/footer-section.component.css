@@ -1,0 +1,66 @@
+/* style for the horizontal line */
+
+main>span {
+    display: block;
+    width: 80%;
+    height: 1px;
+    background: #d017b8;
+    margin: 0 auto;
+  }
+
+/* blur code */
+ 
+  
+  footer .blur13 { 
+    width: 12rem; 
+    filter: blur(96px);
+    border-radius: 999px;
+    position: absolute;
+    opacity: 0.7;
+    background: #220080;
+    top: -14rem;
+    height: 20rem;
+    left: -4rem;
+  }
+
+  
+
+footer {
+
+    position: relative; 
+    padding: 3rem 0;
+  }
+  
+  footer>.upper {
+    gap: 10rem;
+    justify-content: space-around;
+  
+    display: flex;
+  }
+  
+  footer .left {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor:pointer;
+  }
+  
+  footer .right ul {
+  
+    gap: 4rem;
+  }
+  
+  footer .right ul li {
+    list-style: none;
+    cursor:pointer;
+  }
+  
+  footer .bottom {
+  
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #555558;
+  }
