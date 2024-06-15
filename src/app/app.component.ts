@@ -4,11 +4,12 @@ import { HomeSectionComponent, } from './Component/home-section/home-section.com
 import {AboutSectionComponent} from './Component/about-section/about-section.component';
 import { MySkillsSectionComponent } from './Component/my-skills-section/my-skills-section.component';
 import { MyProjectSectionComponent } from './Component/my-project-section/my-project-section.component';
-
+import { MyBlogsSectionComponent } from './Component/my-blogs-section/my-blogs-section.component';
+ 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HomeSectionComponent,AboutSectionComponent,MySkillsSectionComponent,MyProjectSectionComponent],
+  imports: [RouterOutlet,HomeSectionComponent,AboutSectionComponent,MySkillsSectionComponent,MyProjectSectionComponent,MyBlogsSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
