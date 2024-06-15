@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+  /* some utilityclass   */
+
+  .hw-100{
+    height: 100%;
+    width: 100%;
+    }
+    .fx{
+        display: flex;
+    }
+    .cen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+     body {
+    font-family: "Bicyclette", sans-serif;
+    color: white;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 99;
+  }
+  
+  main {
+    width: 100%;
+    background-color: rgb(6, 12, 6);
+  }
