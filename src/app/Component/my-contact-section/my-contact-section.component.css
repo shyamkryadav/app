@@ -1,0 +1,137 @@
+/* blur code */
+
+/* for contact secton */
+.contactSection {
+    overflow: hidden;
+  }
+  
+  .contactSection .blur12 {
+    width: 12rem;
+    height: 31rem;
+    filter: blur(96px);
+    border-radius: 999px;
+    position: absolute;
+    opacity: 0.4;
+  }
+  
+  .contactSection .blur12 {
+    background: #220080;
+    right: 0;
+    top: -9rem;
+    height: 20rem;
+    opacity: 0.7;
+  }
+  
+  .contactSection .circle1 {
+    height: 26rem;
+    width: 40rem;
+    border: 100px solid;
+    border-radius: 600px 400px 0 0;
+    border-bottom: transparent;
+    position: absolute;
+    top: -4rem;
+    left: 4rem;
+    rotate: -117deg;
+    z-index: 1;
+    border-color: #d017b8;
+    filter: blur(1px);
+    opacity: 0.5;
+  }
+
+  
+
+  
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .contactSection .heading {
+    display: flex;
+    font-size: 6rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactSection .form {
+    background: #000000cc;
+    backdrop-filter: blur(106px);
+    width: 40rem;
+    min-height: 30rem;
+    border-radius: 15px;
+  
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .contactSection .form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .contactSection .form form div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 0.4rem;
+  }
+  
+  .contactSection .form form div input {
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    border-radius: 20px;
+    position: relative;
+    left: -1.5rem;
+    background: linear-gradient(45deg, #120230, #270b1e);
+  }
+  
+  .contactSection .form form div textarea {
+    position: relative;
+    left: -2rem;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 15rem;
+    outline: none;
+    background: linear-gradient(45deg, #300c2c, #0f070f);
+    color: white;
+  }
+  
+  .contactSection .form form div label {
+    font-weight: bold;
+  }
+  
+  .contactSection .form .btn button {
+    height: 2.5rem;
+    width: 8rem;
+    outline: none;
+    border: none;
+    border-radius: 6rem;
+    font-weight: bold;
+    color: white;
+    transition: .2s linear;
+    background: #d017b8;
+    cursor:pointer;
+  }
+  
+  .form .btn button:hover {
+    font-size: 1rem;
+    width: 15rem;
+    background:rgb(255, 0, 200);
+  }
+  

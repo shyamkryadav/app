@@ -5,11 +5,12 @@ import {AboutSectionComponent} from './Component/about-section/about-section.com
 import { MySkillsSectionComponent } from './Component/my-skills-section/my-skills-section.component';
 import { MyProjectSectionComponent } from './Component/my-project-section/my-project-section.component';
 import { MyBlogsSectionComponent } from './Component/my-blogs-section/my-blogs-section.component';
+import { MyContactSectionComponent } from './Component/my-contact-section/my-contact-section.component';
  
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HomeSectionComponent,AboutSectionComponent,MySkillsSectionComponent,MyProjectSectionComponent,MyBlogsSectionComponent],
+  imports: [RouterOutlet,HomeSectionComponent,AboutSectionComponent,MySkillsSectionComponent,MyProjectSectionComponent,MyBlogsSectionComponent,MyContactSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
