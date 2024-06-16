@@ -48,3 +48,76 @@
     width: 1rem;
     border-radius: 50%;
   }
+
+
+  /* responsive code  */
+
+
+@media (max-width:1050px) {
+  .mySkillSection .upper {
+  font-size: 5rem;
+}
+
+.mySkillSection .lower>div {
+  width: 70%;
+}}
+
+@media (max-width:930px) {
+  .mySkillSection {
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+.mySkillSection .upper {
+    font-size: 4rem;
+}
+}
+ 
+
+@media (max-width:660px) {
+  .mySkillSection .lower {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.mySkillSection .lower {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 1rem;
+}
+
+.mySkillSection .lower>div {
+    width: 70%;
+}
+}
+
+@media (max-width:480px) {
+  .mySkillSection {
+    height: auto;
+    gap: 0rem;
+}
+
+.mySkillSection .upper {
+    font-size: 4rem;
+    padding: 3rem 0;
+}
+
+.mySkillSection .lower {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+}
+
+.mySkillSection .lower>div {
+    width: 85%;
+}
+
+.mySkillSection .lower li {
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 50%;
+}
+}
+
+@media (max-width:375px) {}
