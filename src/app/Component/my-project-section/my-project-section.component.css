@@ -171,3 +171,290 @@
   
   .myProjectSection .bottom span:hover {
   color:blue;}
+
+
+
+  /* responvie code  */
+
+@media (max-width:1050px) {
+   .myProjectSection .projects {
+  gap: 3rem;
+}
+
+.myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+  right: 10rem;
+}
+
+.myProjectSection .projects>div:nth-child(2) div:nth-child(2) {
+
+  left: -18rem;
+  align-items: end;
+}
+
+.myProjectSection .projects>div:nth-child(4) .img {
+  width: 30rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) {
+  margin-right: 10rem;
+}}
+
+@media (max-width:930px) {
+  .myProjectSection {
+
+    overflow: hidden;
+}
+
+.myProjectSection .heading {
+    font-size: 4rem;
+}
+
+.myProjectSection .projects {
+    gap: 2rem;
+}
+
+.myProjectSection .projects>div:nth-child(1) {
+    margin-left: 2rem;
+}
+
+.myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+    right: -25vw;
+}
+
+.myProjectSection .projects>div:nth-child(1) {
+    margin-left: 2rem;
+    width: fit-content;
+}
+
+.myProjectSection .projects div .img {
+    height: 12rem;
+    width: 22rem;
+    border-radius: 15px;
+}
+
+.myProjectSection .projects div div:nth-child(2) span:nth-child(1) {
+    font-size: 2.5rem;
+}
+
+.myProjectSection .projects div div:nth-child(2) span:nth-child(2) {
+    font-size: 1.5rem;
+    color: rgb(120, 124, 134);
+}
+
+.myProjectSection .projects>div:nth-child(2) {
+    margin-right: 10rem;
+}
+
+.myProjectSection .projects>div:nth-child(2) .img {
+    height: 22rem;
+    width: 20rem;
+}
+
+.myProjectSection .projects>div:nth-child(3) {
+    margin-left: 6rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) {
+    margin-right: 7rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) {
+    margin-right: 2rem;
+}
+
+}
+
+@media (max-width:768px) {
+  .myProjectSection {
+    overflow: hidden;
+}
+
+.myProjectSection .heading {
+    font-size: 3rem;
+}
+
+.myProjectSection .projects>div:nth-child(1) {
+    margin-left: 4rem;
+}
+
+.myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+    right: 1rem;
+}
+
+.myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+    top: 11rem;
+    right: -8rem;
+    align-items: end;
+}
+
+.myProjectSection .projects>div:nth-child(4) div:nth-child(2) {
+    top: 10rem;
+    left: -3rem;
+    align-items: start;
+}
+
+.myProjectSection .projects>div:nth-child(2) {
+    margin-right: 1rem;
+}
+
+.myProjectSection .projects>div:nth-child(3) {
+    margin-left: 2rem;
+}
+
+.myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+    right: -15rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) {
+    margin-right: 2rem;
+}
+}
+
+@media (max-width:660px) {
+  .myProjectSection {
+    gap: 1rem;
+}
+
+.myProjectSection .projects>div:nth-child(1) {
+    margin-left: 1rem;
+}
+
+.myProjectSection .projects div .img {
+    height: 10rem;
+    width: 20rem;
+    border-radius: 12px;
+}
+
+.myProjectSection .projects {
+    gap: 2rem;
+}
+
+.myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+    right: 1rem;
+}
+
+.myProjectSection .projects div div:nth-child(2) span:nth-child(1) {
+    font-size: 2rem;
+}
+
+.myProjectSection .projects div div:nth-child(2) span:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.myProjectSection .projects>div:nth-child(2) .img {
+    height: 20rem;
+    width: 15rem;
+}
+
+.myProjectSection .projects>div:nth-child(2) div:nth-child(2) {
+    left: -13rem;
+    align-items: end;
+}
+
+.myProjectSection .projects>div:nth-child(3) .img {
+    height: 15rem;
+    width: 18rem;
+}
+
+.myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+    right: -10rem;
+    top: 10rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) .img {
+    width: 25rem;
+    height: 13rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) div:nth-child(2) {
+    top: 9rem;
+    align-items: start;
+}
+
+}
+
+@media (max-width:480px) {
+  .myProjectSection {
+    gap: 0;
+    overflow-x: hidden;
+}
+
+.myProjectSection .heading {
+    font-size: 3rem;
+    margin: 3rem 0;
+    overflow-x: hidden;
+    height: auto;
+}
+
+.myProjectSection .projects>div:nth-child(1) {
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.myProjectSection .projects div .img {
+    height: 11rem;
+    width: 17rem;
+    border-radius: 12px;
+}
+
+.myProjectSection .projects div:nth-child(1) div:nth-child(2) {
+    left: -1rem;
+    right: 0;
+}
+
+.myProjectSection .projects div div:nth-child(2) span:nth-child(1) {
+    font-size: 2rem;
+}
+
+.myProjectSection .projects div div:nth-child(2) span:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.myProjectSection .projects>div:nth-child(2) {
+    align-self: end;
+    margin-right: 1rem;
+}
+
+.myProjectSection .projects>div:nth-child(2) .img {
+    height: 20rem;
+    width: 15rem;
+}
+
+.myProjectSection .projects>div:nth-child(2) div:nth-child(2) {
+    left: -18vw;
+    align-items: start;
+}
+
+.myProjectSection .projects>div:nth-child(3) .img {
+    height: 12rem;
+    width: 90vw;
+}
+
+.myProjectSection .projects>div:nth-child(3) div:nth-child(2) {
+    top: 7rem;
+    right: 1rem;
+    align-items: end;
+
+}
+
+.myProjectSection .projects>div:nth-child(3) {
+    margin-left: 1rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) .img {
+    width: 16rem;
+    height: 11rem;
+}
+
+.myProjectSection .projects>div:nth-child(4) div:nth-child(2) {
+    top: 7rem;
+    left: -2rem;
+    align-items: start;
+}
+
+.myProjectSection .projects>div:nth-child(4) {
+    margin-right: 1rem;
+}
+}
+
+@media (max-width:375px) {}
