@@ -1,26 +1,31 @@
-
 <section class="contactSection">
-    <div class="heading"><span>Contact me</span></div>
-    <div class="form">
-      <form action="#">
-        <div>
-          <label for="name">Full name*</label>
-          <input type="text" id="name" name="name" placeholder="Enter your full name ...">
+  <div class="heading"><span>Contact me</span></div>
+  <div class="form">
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+      <div>
+        <label for="name">Full name*</label>
+        <input type="text" id="name" name="name" [(ngModel)]="name" #nameModel="ngModel" required placeholder="Enter your full name ...">
+        <div *ngIf="nameModel.invalid && (nameModel.dirty || nameModel.touched)">
+          <small *ngIf="nameModel.errors?.['required']">Full name is required.</small>
         </div>
-        <div>
-          <label for="email">Email*</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email ...">
-        </div>
-        <div>
-          <label for="message">Message</label>
-          <textarea name="message" id="message" placeholder="Enter your message..."></textarea>
-        </div>
-      </form>
-      <div class="btn cen">
-
-        <button type="submit">See all</button>
       </div>
-    </div>
-    <div class="blur12 blur"></div>
-    <div class="circle1"></div>
-  </section>
+      <div>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" [(ngModel)]="email" #emailModel="ngModel" required email placeholder="Enter your email ...">
+        <div *ngIf="emailModel.invalid && (emailModel.dirty || emailModel.touched)">
+          <small *ngIf="emailModel.errors?.['required']">Email is required.</small>
+          <small *ngIf="emailModel.errors?.['email']">Invalid email address.</small>
+        </div>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" [(ngModel)]="message" placeholder="Enter your message..."></textarea>
+      </div>
+      <div class="btn cen">
+        <button type="submit" [disabled]="contactForm.invalid">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div class="blur12 blur"></div>
+  <div class="circle1"></div>
+</section>

@@ -135,3 +135,15 @@
     background:rgb(255, 0, 200);
   }
   
+
+  button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+  }
+  
+  small {
+    color: red;
+    font-size: 1rem;
+    margin-top: 5px;
+    display: block;
+  }
